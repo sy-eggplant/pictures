@@ -4,7 +4,7 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-    margin: 30px;
+    margin: 150px 0 100px 0;
 }
 h2  {
     text-align: center;
@@ -26,7 +26,7 @@ article {
 /* pc */
 @media screen and (min-width: 1000px) {
   p {
-    margin: 30px;
+    margin: 400px 0 400px 0;
   }
   img {
     width: 700px;
@@ -36,7 +36,9 @@ article {
      
 /* smartPhone */
 @media screen and (max-width: 999px) {
-  p { color:#ededed;}
+  p { color:#ededed;
+    margin: 700px 0 700px 0;
+}
   img {
     width: 90%;
   }
